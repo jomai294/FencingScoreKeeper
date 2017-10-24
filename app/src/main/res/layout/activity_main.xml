@@ -24,18 +24,6 @@
         android:layout_marginBottom="32dp" />
 
     <TextView
-        android:text="0"
-        android:textColor="#FF0000"
-        android:textSize="50dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/leftScore"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="13dp"
-
-        android:layout_alignEnd="@+id/left_name" />
-
-    <TextView
         android:text="-"
         android:textSize="50dp"
         android:layout_width="wrap_content"
@@ -55,17 +43,6 @@
         android:id="@+id/left_name"
         android:layout_alignBottom="@+id/double_touch"
          />
-
-    <TextView
-        android:text="0"
-        android:textSize="50dp"
-        android:textColor="#00FF00"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rightScore"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="38dp" />
 
     <TextView
         android:text="Right Fencer"
@@ -150,6 +127,28 @@
         android:id="@+id/right_yellow"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/bout_time" />
+
+    <TextView
+        android:text="0"
+        android:textSize="50dp"
+        android:textColor="#00FF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rightScore"
+        android:layout_above="@+id/double_touch"
+        android:layout_alignStart="@+id/r_red"/>
+
+    <TextView
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leftScore"
+        android:layout_marginTop="8dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/l_red"/>
 
 
 </RelativeLayout>

@@ -17,18 +17,22 @@ public class ScoreKeeper {
     private int milliseconds;
 
     public void setMinutes(int min) {
+
         minutes = min;
     }
 
     public int getMinutes() {
+
         return minutes;
     }
 
     public void setMilliseconds(int milli) {
+
         milliseconds = milli;
     }
 
     public int getMilliseconds() {
+
         return milliseconds;
     }
 
